@@ -21,16 +21,18 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("java");
-        habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("javascript");
-        habilidades[3].classList.add("php");
-        habilidades[4].classList.add("mysql");
+       
+        //habilidades blandas
+        habilidades[0].classList.add("htmlcss");
+        habilidades[1].classList.add("javascript");
+        habilidades[2].classList.add("php");
+        habilidades[3].classList.add("laravel");
+        habilidades[4].classList.add("react");
+        //habilidades tecnicas comunicacion
         habilidades[5].classList.add("comunicacion");
         habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("Creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
+        habilidades[7].classList.add("proactivo");
+        habilidades[8].classList.add("responsabilidad");
     }
 }
 
