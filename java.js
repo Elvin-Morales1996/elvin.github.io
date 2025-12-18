@@ -27,12 +27,13 @@ function efectoHabilidades(){
         habilidades[1].classList.add("javascript");
         habilidades[2].classList.add("php");
         habilidades[3].classList.add("laravel");
-        habilidades[4].classList.add("react");
+
+ 
         //habilidades tecnicas comunicacion
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("proactivo");
-        habilidades[8].classList.add("responsabilidad");
+        habilidades[4].classList.add("comunicacion");
+        habilidades[5].classList.add("trabajo");
+        habilidades[6].classList.add("proactivo");
+        habilidades[7].classList.add("responsabilidad");
     }
 }
 

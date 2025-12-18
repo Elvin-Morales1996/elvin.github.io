@@ -307,7 +307,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 50%;}
 }
 /*php 2**/
 .skills .skill .php{
@@ -316,7 +316,7 @@ html{
 }
 @keyframes php {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 50%;}
 }
 
 /*laravel 3**/
@@ -326,7 +326,7 @@ html{
 }
 @keyframes laravel {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 50%;}
 }
 
 /*react 4**/
@@ -334,10 +334,7 @@ html{
     width: 0%;
     animation: 2s react forwards;
 }
-@keyframes react {
-    0%{width: 0%;}
-    100%{width: 50%;}
-}
+
 
 
 /***HABILIDADES PERSONALES***/
